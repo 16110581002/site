@@ -18,7 +18,8 @@ You can use multiple deployers. Hexo will execute each deployer in order.
 ``` yaml
 deploy:
 - type: git
-  repo:
+  repo: git@github.com:fei.github.io.git
+  branch: master
 - type: heroku
   repo:
 ```
